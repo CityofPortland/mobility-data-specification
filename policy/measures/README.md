@@ -1,7 +1,10 @@
 # Terminology and Measure Definitions
 This document provides definitions of terms enumerated in TRN 15.10 section 4, part C, metrics for compliance and incentives, and guidance for determining measured values for those terms and metrics. These terms may reference terms that are part of the Mobility Data Specification (MDS) as a whole, and should be used in conjunction with this repository's definitions. Where the definitions in this document and MDS are not aligned, this document should take precedence.
 
-Measured values for this document may be retrieved from [RideReport](https://ridereport.com) and this document describes what specific values will be used in measures. Operators should contact RideReport for technical support using their web applications, for clarification of how RideReport determines a value referenced in this document, and for resolution of discrepancies of measured values between and operator and RideReport.
+Measured values for this document may be retrieved from [RideReport](https://ridereport.com) and this document describes which specific values will be used in measures. Operators should contact RideReport for technical support using their web applications, for clarification of how RideReport determines a value referenced in this document, and for resolution of discrepancies of measured values between the operator and RideReport.
+
+PBOT reserves the right to change how it defines and measures data terms in order to adapt to evolving industry best practices. Any changes that PBOT makes to definitions and measures of data terms will be communicated to permittees with at least 30 days’ notice.
+
 ## Shared Scooters in the Right of Way
 A shared scooter is considered to be in the right of way if it is reported as being in either the _available_ or _unavailable_ state as defined in MDS.
 
