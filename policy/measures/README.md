@@ -24,8 +24,8 @@ Daily compliance is calculated by using a given day's daily report. Follow the c
 ### Average daily compliance
 Average compliance over a given period is determined by summing the individual daily compliance values at two decimal precision as described above, and dividing by the number of days measured.
 
-### Number of days in compliance
-The number of days in compliance is the total number of days within a given period where the measured value of daily compliance as described above is at least 15.00 percent, rounded to two decimal precision. To be eligible for incentives, companies should have a minimum compliance rate of at least 50.00 percent.
+### Percentage of days in compliance
+The percentage of days in compliance is the percentage of days within a given period where the measured value of daily compliance as described above is at least 15.00 percent, rounded to two decimal precision. To be eligible for incentives, companies should have a minimum compliance rate of at least 50.00 percent.
 
 ### Example
 For a period of three days, the following deployment values and resulting percentages were measured:
