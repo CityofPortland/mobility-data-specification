@@ -16,7 +16,7 @@ A deployment is measured by the "Morning deployment" value provided by Ride Repo
 
 This measure of deployments is used to determine compliance with deployments required in the East Portland pattern area. Operators are required to ensure that at least 15.00 percent of their measured deployments occur in the East Portland pattern area. To calculate the percentage of deployments occuring in the East Portland pattern area, use the Area of Interest Metrics section for a given day's report from RideReport. From the Area of Interest Metrics section, divide the "Eastern Neighborhoods Parking" area's value for "Morning Deployment" by the "Portland City Limits" area's value, then multiply by 100. That value, rounded to two decimal precision, is the measured value of deployments in the East Portland pattern area.
 
-As detailed in our January 15, 2020 memo, companies must satisfactorily meet East Portland deployment requirements to be eligible for performance incentives. These requirements is measured in multiple ways for incentive purposes. The ways compliace is measured are daily, average daily over a time period, and the number of days in compliance over a given time period.
+As detailed in our January 15, 2020 memo, companies must satisfactorily meet East Portland deployment requirements to be eligible for performance incentives. These requirements are measured in multiple ways for incentive purposes. The ways compliance is measured are daily, average daily over a time period, and the number of days in compliance over a given time period.
 
 ### Daily compliance
 Daily compliance is calculated by using a given day's daily report. Follow the calculation method described above to determine the value of deployment percentage for the East Portland pattern area.
@@ -48,16 +48,16 @@ A trip is measured as the start of a trip that occured in "Portland City Limits"
 It is important to balance consumer demand and vehicle availability with agency needs to maintain safety in the public right of way. Utilization is a key performance indicator for measuring both vehicle supply and consumer demand. Utilization is defined as both a daily measure and an average measure.
 
 ### Daily utilization
-Daily utilization is measured by dividing the number of measured trip as described above by the measure of shared scooters that were available for that same day as described above, rounded to two decimal places.
+Daily utilization is measured by dividing the number of measured trip as described above by the measure of shared scooters that were available for that same day as described above, rounded to two decimal precision.
 
 ### Average daily utilization
-Average utilization is over a given time period is measured by summing the daily utilization for each day in the time period and dividing by the number of days in the time period, rounded to two decimal places. To be eligible for performance incentives during a time period, companies should have an average utilization measurement of 3.00 or greater for the time period.
+Average utilization is over a given time period is measured by summing the daily utilization for each day in the time period and dividing by the number of days in the time period, rounded to two decimal precision. To be eligible for performance incentives during a time period, companies should have an average utilization measurement of 3.00 or greater for the time period.
 
 ### Example
 For a period of three days, the following availble scooters and trips were measured:
 
 | Day | Trip starts | Max availability | Utilization |
-| - |:-:| :-:| -: |
+| - |:-: | :-: | -: |
 | 1 | 1500 | 500 | 3.00 |
 | 2 | 2000 | 675 | 2.96 |
 | 3 | 2200 | 700 | 3.14 |
