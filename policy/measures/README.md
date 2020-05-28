@@ -1,7 +1,7 @@
 # Terminology and Measure Definitions
 This document provides definitions of terms enumerated in TRN 15.10 section 4, part C, metrics for compliance and incentives, and guidance for determining measured values for those terms and metrics. These terms may reference terms that are part of the Mobility Data Specification (MDS) as a whole, and should be used in conjunction with this repository's definitions. Where the definitions in this document and MDS are not aligned, this document should take precedence.
 
-Measured values for this document may be retrieved from [RideReport](https://ridereport.com) and this document describes which specific values will be used in measures. Operators should contact RideReport for technical support using their web applications, for clarification of how RideReport determines a value referenced in this document, and for resolution of discrepancies of measured values between the operator and RideReport.
+Measured values for this document may be retrieved from [Ride Report](https://ridereport.com) and this document describes which specific values will be used in measures. Operators should contact Ride Report for technical support using their web applications, for clarification of how Ride Report determines a value referenced in this document, and for resolution of discrepancies of measured values between the operator and Ride Report.
 
 PBOT reserves the right to change how it defines and measures data terms in order to adapt to evolving industry best practices. Any changes that PBOT makes to definitions and measures of data terms will be communicated to permittees with at least 30 days’ notice.
 
@@ -12,9 +12,9 @@ A shared scooter is considered to be in the right of way if it is reported as be
 An operator's maximum number of alloted shared scooters in the right of way for a given day is provided by their permit. To retrieve the number of shared scooters in the right of way for a given day use the "Max Parked" metric from Ride Report for that day.
 
 ## Deployment
-A deployment is measured by the "Morning deployment" value provided by Ride Report. As of this writing, that measure is determined by counting the nubmer of vehicles RideReport has determined to be in the available state at 8:00:00 AM on a given day.
+A deployment is measured by the "Morning deployment" value provided by Ride Report. As of this writing, that measure is determined by counting the nubmer of vehicles Ride Report has determined to be in the available state at 8:00:00 AM on a given day.
 
-This measure of deployments is used to determine compliance with deployments required in the East Portland pattern area. Operators are required to ensure that at least 15.00 percent of their measured deployments occur in the East Portland pattern area. To calculate the percentage of deployments occuring in the East Portland pattern area, use the Area of Interest Metrics section for a given day's report from RideReport. From the Area of Interest Metrics section, divide the "Eastern Neighborhoods Parking" area's value for "Morning Deployment" by the "Portland City Limits" area's value, then multiply by 100. That value, rounded to two decimal precision, is the measured value of deployments in the East Portland pattern area.
+This measure of deployments is used to determine compliance with deployments required in the East Portland pattern area. Operators are required to ensure that at least 15.00 percent of their measured deployments occur in the East Portland pattern area. To calculate the percentage of deployments occuring in the East Portland pattern area, use the Area of Interest Metrics section for a given day's report from Ride Report. From the Area of Interest Metrics section, divide the "Eastern Neighborhoods Parking" area's value for "Morning Deployment" by the "Portland City Limits" area's value, then multiply by 100. That value, rounded to two decimal precision, is the measured value of deployments in the East Portland pattern area.
 
 As detailed in our January 15, 2020 memo, companies must satisfactorily meet East Portland deployment requirements to be eligible for performance incentives. These requirements are measured in multiple ways for incentive purposes. The ways compliance is measured are daily, average daily over a time period, and the number of days in compliance over a given time period.
 
@@ -39,7 +39,7 @@ For a period of three days, the following deployment values and resulting percen
 In this example, the operator is in compliance on days 1 and 3, their average daily compliance is 15.65 = (16.67 + 14.29 + 16.00) / 3, and their number of days in compliance is 66.67 = (2 / 3) * 100.
 
 ## Available
-A shared scooter is considered available in a given period by RideReport. RideReport provides measures for max availability in a given day and an average over other periods of time. Availability for these measures is only taken as the max availability for a given day.
+A shared scooter is considered available in a given period by Ride Report. Ride Report provides measures for max availability in a given day and an average over other periods of time. Availability for these measures is only taken as the max availability for a given day.
 
 ## Trip
 A trip is measured as the start of a trip that occured in "Portland City Limits" as determined by RideReport. To find this measure, use the "Area of Interest Metrics" section and use the "Start Trips" value for "Portland City Limits."
