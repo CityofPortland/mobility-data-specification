@@ -36,7 +36,7 @@ For a period of three days, the following deployment values and resulting percen
 | 2 | 350 | 50 | 14.29 |
 | 3 | 250 | 40 | 16.00 |
 
-In this example, the operator is in compliance on days 1 and 3, their average daily compliance is 15.65%, and their number of days in compliance is 66.67%.
+In this example, the operator is in compliance on days 1 and 3, their average daily compliance is 15.65 = (16.67 + 14.29 + 16.00) / 3, and their number of days in compliance is 66.67 = (2 / 3) * 100.
 
 ## Available
 A shared scooter is considered available in a given period by RideReport. RideReport provides measures for max availability in a given day and an average over other periods of time. Availability for these measures is only taken as the max availability for a given day.
@@ -62,4 +62,4 @@ For a period of three days, the following availble scooters and trips were measu
 | 2 | 2000 | 675 | 2.96 |
 | 3 | 2200 | 700 | 3.14 |
 
-In this example, the operator has the daily utilization measures shown in the table, and an average daily utilization of 3.03.
+In this example, the operator has the daily utilization measures shown in the table, and an average daily utilization of 3.03 = (3.00 + 2.96 + 3.14) / 3.
