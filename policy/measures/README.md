@@ -42,13 +42,13 @@ In this example, the operator is in compliance on days 1 and 3, their average da
 A shared scooter is considered available in a given period by Ride Report. Ride Report provides measures for max availability in a given day and an average over other periods of time. Availability for these measures is only taken as the max availability for a given day.
 
 ## Trip
-A trip is measured as the start of a trip that occured in "Portland City Limits" as determined by Ride Report. To find this measure,  select "Portland City Limits" from the "Pages" listings under the "Areas" section and use the "Start Trips" value from the resulting report.
+A trip is measured as the start of a trip that occured in "Portland City Limits" as determined by Ride Report. To find this measure,  select "Portland City Limits" from the "Areas" section within the "Pages" panel and use the "Start Trips" value from the resulting report.
 
 ## Utilization
 It is important to balance consumer demand and vehicle availability with agency needs to maintain safety in the public right of way. Utilization is a key performance indicator for measuring both vehicle supply and consumer demand. Utilization is defined as both a daily measure and an average measure.
 
 ### Daily utilization
-Daily utilization is measured by dividing the number of measured trips as described above by the measure of shared scooters that were available for that same day as described above, rounded to two decimal precision. To find this measure select "Portland City Limits" from the "Pages" listings under the "Areas" section and use the "Trips per Vehicle" value from the resulting report.
+Daily utilization is measured by dividing the number of measured trips as described above by the measure of shared scooters that were available for that same day as described above, rounded to two decimal precision. To find this measure select "Portland City Limits" from the "Areas" section within the "Pages" panel and use the "Trips per Vehicle" value from the resulting report.
 
 ### Average daily utilization
 Average utilization is over a given time period is measured by summing the daily utilization as described above for each day in the time period and dividing by the number of days in the time period, rounded to two decimal precision. To be eligible for performance incentives during a time period, companies should have an average utilization measurement of 3.00 or greater for the time period.
