@@ -1,3 +1,49 @@
+## 0.3.2 
+
+> Released 2019-06-13
+
+This release is a series of non breaking and minor changes for provider, along with JSON Schema for agency. 
+
+**CHANGES** 
+
+*_Provider_*
+* [Add an optional recorded field to provider](https://github.com/CityOfLosAngeles/mobility-data-specification/issues/307)
+* [Ordering Definitions](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/301)
+* [406 response - version negiotation](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/327)
+
+*_Agency_*
+[JSON Schema for Agency](https://github.com/CityOfLosAngeles/mobility-data-specification/issues/169)
+
+*_Misc_*
+[Schema Folder Cleanup](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/328)
+[Global GNSS Support](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/316)
+## 0.3.1
+
+> Released 2019-04-30
+
+This release represents a series of non-breaking changes and clarifications for provider, along with a number of agency bugfixes / changes. 
+
+**CHANGES**
+
+*_Provider_*
+* MDS Schema version fix.
+* [New release process](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/264). Thanks @jfh for documenting, all for participating 
+* [Additional documentation around what is considered Breaking / Non-Breaking](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/295). Thanks @rf-
+* [OPTIONS for version negotiation](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/293). Thanks @billdirks
+* [Add Agency Drop off / pick up](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/291). Thanks @margodawes 
+* [Explicitly allow associated_trip for any event type](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/297)
+
+*_Agency_*
+* Change from UUIDv4 to just UUID. Thanks @karcass
+* Change Error Messages for State Machine validation. 
+* Update Pagination Rules 
+* Add Unregistered event. 
+* [Add Event Diagram](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/258). Thanks @whereissean
+* [Removing 412 Responses](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/258)
+* Add deregister and decomissioned events. Thanks @dirkdk 
+* [Remove 5 second Telemetry requirement](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/261)
+* [Improve failure and error handling around Telemetry Data](https://github.com/CityOfLosAngeles/mobility-data-specification/pull/290)
+
 ## 0.3.0 
 
 > Released 2019-02-15

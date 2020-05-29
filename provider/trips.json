@@ -200,14 +200,14 @@
       "type": "string",
       "title": "The MDS Provider version this data represents",
       "examples": [
-        "0.2.0"
+        "0.3.0"
       ],
-      "pattern": "^0\\.2\\.[0-9]+$"
+      "pattern": "^0\\.3\\.[0-9]+$"
     },
     "uuid": {
       "$id": "#/definitions/uuid",
       "type": "string",
-      "title": "A UUID 4 used to uniquely identifty an object",
+      "title": "A UUID used to uniquely identifty an object",
       "default": "",
       "examples": [
         "3c9604d6-b5ee-11e8-96f8-529269fb1459"
@@ -340,6 +340,11 @@
               "end_time": {
                 "$id": "#/properties/data/properties/trips/items/properties/end_time",
                 "description": "The time the trip ended, expressed as a Unix Timestamp",
+                "$ref": "#/definitions/timestamp"
+              },
+              "publication_time": {
+                "$id": "#/properties/data/properties/trips/items/properties/publication_time",
+                "description": "The time the trip became available through the trips endpoint, expressed as a Unix Timestamp",
                 "$ref": "#/definitions/timestamp"
               },
               "parking_verification_url": {
