@@ -56,10 +56,10 @@ Average utilization is over a given time period is measured by summing the daily
 ### Example
 For a period of three days, the following availble scooters and trips were measured:
 
-| Day | Trip starts | Max availability | Utilization |
-| - |:-: | :-: | -: |
-| 1 | 1500 | 500 | 3.00 |
-| 2 | 2000 | 675 | 2.96 |
-| 3 | 2200 | 700 | 3.14 |
+| Day | Trips per Vehicle |
+| - | -: |
+| 1 | 3.00 |
+| 2 | 2.96 |
+| 3 | 3.14 |
 
 In this example, the operator has the daily utilization measures shown in the table, and an average daily utilization of 3.03 = (3.00 + 2.96 + 3.14) / 3.
